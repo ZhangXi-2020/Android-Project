@@ -15,7 +15,7 @@
 
 + 主页/登录页
 <div  align="center">
-    <img src="./img/homepage.jpg" height="40%" width="40%" alt="homepage" align=center />
+    <img src="./img/homePage.jpg" height="40%" width="40%" alt="homepage" align=center />
 </div>
 
 + 搜索功能实现
