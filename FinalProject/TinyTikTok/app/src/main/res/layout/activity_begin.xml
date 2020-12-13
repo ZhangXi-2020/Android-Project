@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/begin"
+        />
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="跳过"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+<!--    <View-->
+<!--        android:layout_width="160sp"-->
+<!--        android:layout_height="80sp"-->
+<!--        android:layout_marginTop="350sp"-->
+<!--        android:layout_marginLeft="120sp"-->
+<!--        android:background="@color/black"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="300sp"-->
+<!--        android:layout_height="80sp"-->
+<!--        android:layout_marginTop="380sp"-->
+<!--        android:layout_marginLeft="90sp"-->
+<!--        android:text="TinyTikTok"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="48sp"-->
+<!--        android:fontFamily="sans-serif-black"/>-->
+
+</FrameLayout>
